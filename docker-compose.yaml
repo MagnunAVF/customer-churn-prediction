@@ -1,0 +1,15 @@
+version: "3.9"
+
+services:
+  jupyter:
+    image: jupyter/scipy-notebook:latest
+    deploy:
+      resources:
+        limits:
+          cpus: "2"
+          memory: "2G"
+    ports:
+      - "8888:8888"
+    volumes:
+      - ./notebooks:/home/jovyan/work
+      - ./data:/data
