@@ -28,6 +28,10 @@ Ensure you have these installed before proceeding with the installation steps.
    ```
 4. Go to `http://127.0.0.1:8888/lab`and start coding!
 
+## Dataset
+
+[Kaggle - Telco Customer Churn](https://www.kaggle.com/datasets/blastchar/telco-customer-churn)
+
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
