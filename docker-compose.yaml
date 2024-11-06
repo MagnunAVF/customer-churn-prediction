@@ -12,4 +12,4 @@ services:
       - "8888:8888"
     volumes:
       - ./notebooks:/home/jovyan/work
-      - ./data:/data
+      - ./data:/home/jovyan/work/data
